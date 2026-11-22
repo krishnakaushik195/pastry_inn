@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!-- Designed & Developed by Kaushik AI Labs — https://www.kaushikailabs.com -->
+<meta name="author" content="Kaushik AI Labs">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pastry Inn, Tuni — Custom Cakes, Pizza, Burgers &amp; Bakery | Order Online</title>
+<meta name="description" content="Pastry Inn on GNT Road, Tuni: custom birthday &amp; celebration cakes, fresh pastries, pizzas, burgers and sandwiches. Design your cake, order online, delivery &amp; takeaway.">
+<meta name="theme-color" content="#d62e4f">
+<meta property="og:title" content="Pastry Inn, Tuni — We mean kakes">
+<meta property="og:description" content="Custom cakes, pizzas, burgers &amp; more. Design your cake and order online from Pastry Inn, Tuni.">
+<meta property="og:image" content="assets/img/site/cakes/cakes-18.webp">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8E%82%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;0,9..144,900;1,9..144,500;1,9..144,700&family=Kaushan+Script&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Bakery","name":"Pastry Inn","telephone":"+919849520218","servesCuisine":["Bakery","Pizza","Burgers","Sandwiches"],"address":{"@type":"PostalAddress","streetAddress":"Beside Sri Rama Theater, GNT Road","addressLocality":"Tuni","addressRegion":"Andhra Pradesh","postalCode":"533401","addressCountry":"IN"},"geo":{"@type":"GeoCoordinates","latitude":17.357083,"longitude":82.538796},"openingHours":"Mo-Su 08:30-23:00","aggregateRating":{"@type":"AggregateRating","ratingValue":"4.8","reviewCount":"154"},"sameAs":["https://www.instagram.com/pastryinntuni"]}
+</script>
+</head>
+<body>
+
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader__inner">
+    <span class="logo logo--xl">Pastry <i>inn</i></span>
+    <small>Warming up the oven…</small>
+    <div class="loader__bar"><span></span></div>
+  </div>
+</div>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav" id="nav">
+  <a href="#home" class="logo" aria-label="Pastry Inn home">Pastry <i>inn</i></a>
+  <nav class="nav__links" id="navLinks" aria-label="Main">
+    <a href="#what">What we do</a>
+    <a href="#cakes">Cake wall</a>
+    <a href="#studio">Design a cake</a>
+    <a href="#menu">Order</a>
+    <a href="#inside">Inside</a>
+    <a href="#visit">Visit</a>
+  </nav>
+  <div class="nav__actions">
+    <span class="status" id="statusPill" role="status"><i></i><b id="statusText">—</b></span>
+    <button class="cart-btn" id="cartOpen" aria-label="Open your order">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8h12l-1 12H7L6 8Z"/><path d="M9 8a3 3 0 0 1 6 0"/></svg>
+      <span id="cartCount">0</span>
+    </button>
+    <button class="burger" id="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero__bg" aria-hidden="true"><span class="orb o1"></span><span class="orb o2"></span><span class="orb o3"></span><div class="stars" id="stars"></div></div>
+  <div class="wrap hero__grid">
+    <div class="hero__copy">
+      <p class="chip reveal"><span>●</span> Bakery · Pizza · Café — Tuni</p>
+      <h1 class="reveal">Cakes that make <em>every moment<svg class="scribble" viewBox="0 0 220 24" preserveAspectRatio="none" aria-hidden="true"><path d="M3 15C40 4 70 20 110 11s70-9 107 2" pathLength="1"/></svg></em> magical.</h1>
+      <p class="lead reveal">Custom cakes, cheesy pizzas &amp; fresh bites — baked with love on GNT Road.</p>
+      <div class="hero__cta reveal">
+        <a href="#menu" class="btn btn--primary">Order online <span>→</span></a>
+        <a href="#studio" class="btn btn--ghost">Design your cake <span>✎</span></a>
+      </div>
+      <ul class="perks reveal">
+        <li>🎂 Custom cakes</li><li>🍕 23 pizzas</li><li>🍔 Burgers</li><li>🛵 Delivery</li>
+      </ul>
+    </div>
+
+    <div class="hero__art" id="heroArt">
+      <div class="stage" data-depth="0.02">
+        <div class="stage__glow"></div>
+        <div class="stage__ring"></div>
+        <div class="stage__frame" id="slides">
+          <div class="slide on"><img src="assets/img/site/cakes/cakes-14.webp" alt="Engagement celebration cake topped with red hearts" fetchpriority="high"></div>
+          <div class="slide"><img src="assets/img/site/cakes/cakes-02.webp" alt="Golden mirror-glaze cake with chocolate hearts" loading="lazy"></div>
+          <div class="slide"><img src="assets/img/site/cakes/cakes-09.webp" alt="Rainbow themed celebration cake" loading="lazy"></div>
+          <div class="slide"><img src="assets/img/site/cakes/cakes-36.webp" alt="Chocolate drip cake with orange slices" loading="lazy"></div>
+          <div class="slide"><img src="assets/img/site/cakes/cakes-18.webp" alt="Red velvet heart cake" loading="lazy"></div>
+          <div class="slide"><img src="assets/img/site/cakes/cakes-04.webp" alt="Pink ribbed birthday cake with roses" loading="lazy"></div>
+          <div class="slide"><img src="assets/img/site/cakes/cakes-22.webp" alt="Pink tiered cake with red roses" loading="lazy"></div>
+        </div>
+      </div>
+      <div class="orbit" aria-hidden="true">
+        <span class="oi oi--1"><img src="assets/img/site/food/food-01.webp" alt=""></span>
+        <span class="oi oi--2"><img src="assets/img/site/cakes/cakes-24.webp" alt=""></span>
+        <span class="oi oi--3"><img src="assets/img/site/food/food-05.webp" alt=""></span>
+        <span class="oi oi--4"><img src="assets/img/site/cakes/cakes-30.webp" alt=""></span>
+      </div>
+      <div class="badge" aria-hidden="true">
+        <svg viewBox="0 0 200 200"><defs><path id="circ" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0"/></defs><text><textPath href="#circ">we mean kakes • baked with love • Tuni •</textPath></text></svg>
+        <span>🎂</span>
+      </div>
+      <div class="fcard fc1" data-depth="-0.03"><b>★ 4.8</b> on Zomato</div>
+      <div class="fcard fc2" data-depth="0.04">🛵 Delivery &amp; takeaway</div>
+      <div class="fcard fc3" data-depth="-0.02">✨ Made to order</div>
+    </div>
+  </div>
+  <div class="scroll-cue" aria-hidden="true"><span></span></div>
+</section>
+
+<div class="ribbon-wrap"><div class="ribbon" aria-hidden="true">
+  <div class="ribbon__track">
+    <span>Birthday cakes</span><i>✦</i><span>Anniversary cakes</span><i>✦</i><span>Engagement cakes</span><i>✦</i><span>Pizza</span><i>✦</i><span>Burgers</span><i>✦</i><span>Sandwiches</span><i>✦</i><span>Pastries</span><i>✦</i><span>Cold drinks</span><i>✦</i>
+    <span>Birthday cakes</span><i>✦</i><span>Anniversary cakes</span><i>✦</i><span>Engagement cakes</span><i>✦</i><span>Pizza</span><i>✦</i><span>Burgers</span><i>✦</i><span>Sandwiches</span><i>✦</i><span>Pastries</span><i>✦</i><span>Cold drinks</span><i>✦</i>
+  </div>
+</div></div>
+
+<!-- WHAT WE DO -->
+<section class="section" id="what">
+  <div class="wrap">
+    <header class="sec-head reveal">
+      <p class="eyebrow">What we do</p>
+      <h2>One little inn,<br><em>so many</em> ways to celebrate.</h2>
+      <p>From a dream cake to a quick cheesy slice — here’s everything you can get at Pastry Inn.</p>
+    </header>
+
+    <div class="bento">
+      <a href="#studio" class="tile tile--lg reveal" style="--img:url('../assets/img/site/cakes/cakes-14.webp')">
+        <span class="tile__num">01</span>
+        <h3>Custom celebration cakes</h3>
+        <p>Name, theme, flavour, tiers — we’ll make it yours. Hearts, florals, cartoons, photo cakes.</p>
+        <span class="tile__go">Design yours →</span>
+      </a>
+      <a href="#cakes" class="tile reveal" style="--img:url('../assets/img/site/shop/shop-02.webp')">
+        <span class="tile__num">02</span>
+        <h3>Ready cakes &amp; pastries</h3>
+        <p>Walk in and pick from the fresh display counter.</p>
+      </a>
+      <a href="#menu" class="tile reveal" style="--img:url('../assets/img/site/food/food-01.webp')">
+        <span class="tile__num">03</span>
+        <h3>Pizzas</h3>
+        <p>23 pizzas, from fresh veg to chicken supreme.</p>
+      </a>
+      <a href="#menu" class="tile reveal" style="--img:url('../assets/img/site/food/food-05.webp')">
+        <span class="tile__num">04</span>
+        <h3>Burgers &amp; sandwiches</h3>
+        <p>Grilled, stacked and packed with flavour.</p>
+      </a>
+      <a href="#visit" class="tile tile--plain tile--pink reveal">
+        <span class="tile__num">05</span>
+        <h3>Delivery · Takeaway · Dine-in</h3>
+        <p>Order online, grab-and-go, or sit down with us. Cards accepted.</p>
+        <span class="tile__emoji" aria-hidden="true">🛵</span>
+      </a>
+      <a href="#inside" class="tile reveal" style="--img:url('../assets/img/site/shop/shop-01.webp')">
+        <span class="tile__num">06</span>
+        <h3>Brownies, biscuits &amp; gifts</h3>
+        <p>Sweet little add-ons for every gift box.</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- CAKE WALL -->
+<section class="section section--cream" id="cakes">
+  <div class="wrap">
+    <header class="sec-head sec-head--row reveal">
+      <div>
+        <p class="eyebrow">The cake wall</p>
+        <h2>Made for <em>your</em> moments.</h2>
+      </div>
+      <p>Real cakes baked at Pastry Inn. Tap any cake to take a closer look, then make one just like it.</p>
+    </header>
+    <div class="filters reveal" id="cakeFilters" role="tablist" aria-label="Filter cakes">
+      <button class="fchip is-on" data-f="all">All</button>
+      <button class="fchip" data-f="birthday">Birthday</button>
+      <button class="fchip" data-f="heart">Hearts &amp; love</button>
+      <button class="fchip" data-f="chocolate">Chocolate</button>
+      <button class="fchip" data-f="tiered">Tiered</button>
+      <button class="fchip" data-f="kids">Kids &amp; themes</button>
+      <button class="fchip" data-f="floral">Floral</button>
+    </div>
+    <div class="masonry" id="masonry"></div>
+    <p class="center reveal"><a class="btn btn--ghost" href="#studio">Love one? Design yours <span>✎</span></a></p>
+  </div>
+</section>
+
+<!-- CAKE STUDIO -->
+<section class="section section--dark studio" id="studio">
+  <div class="wrap">
+    <header class="sec-head sec-head--light reveal">
+      <p class="eyebrow">Cake studio</p>
+      <h2>Design your cake,<br><em>live.</em></h2>
+      <p>Choose flavour, shape and your message — watch it come to life, then send the order straight to our bakers on WhatsApp. We’ll confirm price, design and delivery.</p>
+    </header>
+
+    <div class="studio__grid">
+      <div class="studio__stage reveal">
+        <div class="stage__glow"></div>
+        <svg id="cakeSvg" viewBox="0 0 400 380" role="img" aria-label="Preview of your custom cake"></svg>
+        <p class="stage__caption" id="cakeCaption"></p>
+      </div>
+
+      <form class="studio__form reveal" id="cakeForm" autocomplete="off">
+        <fieldset>
+          <legend>1 · Flavour</legend>
+          <div class="opts" id="optFlavor"></div>
+        </fieldset>
+        <fieldset>
+          <legend>2 · Shape</legend>
+          <div class="opts" id="optShape"></div>
+        </fieldset>
+        <div class="row2">
+          <fieldset>
+            <legend>3 · Tiers</legend>
+            <div class="opts" id="optTiers"></div>
+          </fieldset>
+          <fieldset>
+            <legend>4 · Size</legend>
+            <div class="opts" id="optSize"></div>
+          </fieldset>
+        </div>
+        <fieldset>
+          <legend>5 · Topper</legend>
+          <div class="opts" id="optTopper"></div>
+        </fieldset>
+        <label class="field">
+          <span>6 · Message on the cake <em id="msgCount">0/28</em></span>
+          <input type="text" id="cakeMsg" maxlength="28" placeholder="Happy Birthday Riya!" value="Happy Birthday!">
+        </label>
+        <div class="row2">
+          <label class="field"><span>Your name</span><input type="text" id="cakeName" placeholder="Your name"></label>
+          <label class="field"><span>Needed on</span><input type="date" id="cakeDate"></label>
+        </div>
+        <label class="field"><span>Anything else? (photo, theme, eggless…)</span><textarea id="cakeNote" rows="2" placeholder="Tell us more"></textarea></label>
+        <button type="submit" class="btn btn--primary btn--block">Send to our bakers on WhatsApp <span>→</span></button>
+        <p class="fine">Prices depend on design, flavour &amp; weight — we’ll confirm on WhatsApp. Please order custom cakes at least a day ahead.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- MENU / ORDER -->
+<section class="section" id="menu">
+  <div class="wrap">
+    <header class="sec-head reveal">
+      <p class="eyebrow">Order online</p>
+      <h2>The <em>Pastry Inn</em> menu.</h2>
+      <p>Add your favourites, then send your order on WhatsApp — or order on Zomato. Prices as listed on our Zomato menu; they may vary slightly in store.</p>
+    </header>
+
+    <div class="menu-tools reveal">
+      <div class="tabs" id="menuTabs" role="tablist"></div>
+      <div class="menu-tools__right">
+        <div class="seg" id="vegSeg" role="group" aria-label="Diet filter">
+          <button class="is-on" data-v="all">All</button>
+          <button data-v="veg"><i class="dot dot--veg"></i>Veg</button>
+          <button data-v="non"><i class="dot dot--non"></i>Non-veg</button>
+        </div>
+        <label class="search"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input type="search" id="menuSearch" placeholder="Search the menu" aria-label="Search the menu"></label>
+      </div>
+    </div>
+
+    <div class="menu-layout">
+      <aside class="menu-photo reveal" id="menuPhoto" aria-hidden="true"></aside>
+      <div class="menu-card reveal">
+        <ul class="menu-list" id="menuList"></ul>
+        <p class="empty" id="menuEmpty" hidden>No dishes match your search. Try another word.</p>
+      </div>
+    </div>
+
+    <div class="order-cta reveal">
+      <p>Prefer an app? <a href="https://www.zomato.com/tuni/pastry-inn-tuni-locality/order" target="_blank" rel="noopener">Order on Zomato ↗</a> &nbsp;·&nbsp; Want something not listed (cakes, pastries, drinks)? <a href="#" data-wa="Hi Pastry Inn! I'd like to place an order.">Ask us on WhatsApp</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- INSIDE -->
+<section class="section section--pink" id="inside">
+  <div class="wrap">
+    <header class="sec-head sec-head--row reveal">
+      <div>
+        <p class="eyebrow">Inside the inn</p>
+        <h2>Come on in, <em>it smells</em> amazing.</h2>
+      </div>
+      <p>Glass counters full of fresh cakes, savouries and sweet little things — right beside Sri Rama Theater on GNT Road.</p>
+    </header>
+  </div>
+  <div class="polaroids" id="polaroids" tabindex="0" aria-label="Photos of Pastry Inn"></div>
+  <div class="wrap"><p class="hint">Swipe or drag →</p></div>
+</section>
+
+<!-- LOVED -->
+<section class="section" id="loved">
+  <div class="wrap">
+    <header class="sec-head center reveal">
+      <p class="eyebrow">Loved in Tuni</p>
+      <h2>Rated by the people who <em>eat here.</em></h2>
+    </header>
+    <div class="stats">
+      <div class="stat reveal"><b data-count="4.8" data-dec="1">0</b><span>Zomato rating</span><small>from 154 reviews</small></div>
+      <div class="stat reveal"><b data-count="4.1" data-dec="1">0</b><span>Google rating</span><small>from 1,221 reviews</small></div>
+      <div class="stat reveal"><b data-count="43">0</b><span>Dishes to order online</span><small>pizza · burgers · sandwiches</small></div>
+      <div class="stat reveal"><b>#7</b><span>of 59 restaurants in Tuni</span><small>per Restaurant Guru</small></div>
+    </div>
+    <div class="loved reveal">
+      <p>Guests love us for</p>
+      <div class="tags">
+        <span>Red velvet cake</span><span>Black forest</span><span>Butter cake</span><span>Birthday cakes</span><span>Veg pizza</span><span>Chilli burgers</span><span>Sandwich cakes</span><span>Paneer tikka</span><span>Chicken tikka</span><span>Chocolate frappe</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VISIT -->
+<section class="section section--dark visit" id="visit">
+  <div class="wrap visit__grid">
+    <div class="reveal">
+      <p class="eyebrow">Visit us</p>
+      <h2>Find the <em>inn.</em></h2>
+      <address>
+        <b>Pastry Inn</b><br>
+        Beside Sri Rama Theater,<br>
+        GNT Road, Tuni — 533 401<br>
+        East Godavari, Andhra Pradesh
+      </address>
+      <div class="visit__btns">
+        <a class="btn btn--primary" href="tel:+919849520218">Call 98495 20218</a>
+        <a class="btn btn--wa" href="#" data-wa="Hi Pastry Inn! I have a question.">WhatsApp</a>
+        <a class="btn btn--ghost btn--light" href="https://www.google.com/maps/dir/?api=1&destination=17.357083,82.538796" target="_blank" rel="noopener">Get directions ↗</a>
+      </div>
+      <h3 class="hours-h">Opening hours <span class="status status--sm" id="statusPill2"><i></i><b id="statusText2">—</b></span></h3>
+      <ul class="hours" id="hours"></ul>
+      <p class="socials">Follow the cakes: <a href="https://www.instagram.com/pastryinntuni" target="_blank" rel="noopener">@pastryinntuni</a></p>
+    </div>
+    <div class="visit__map reveal">
+      <iframe title="Map showing Pastry Inn, GNT Road, Tuni" loading="lazy" referrerpolicy="no-referrer" src="https://maps.google.com/maps?q=17.357083,82.538796&amp;z=17&amp;output=embed"></iframe>
+      <figure class="visit__photo"><img src="assets/img/site/shop/shop-03.webp" alt="Pastry Inn signboard glowing at night" loading="lazy"><figcaption>Look for the pink-and-white sign ✨</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__top">
+    <div>
+      <a href="#home" class="logo logo--lg">Pastry <i>inn</i></a>
+      <p>We mean kakes. Cakes, pizzas, burgers &amp; sweet moments in Tuni.</p>
+    </div>
+    <nav aria-label="Footer">
+      <a href="#cakes">Cake wall</a><a href="#studio">Design a cake</a><a href="#menu">Order online</a><a href="#visit">Visit us</a>
+    </nav>
+  </div>
+  <div class="footer__word" aria-hidden="true">Pastry inn</div>
+  <div class="wrap footer__bottom">
+    <span>© <span id="yr"></span> Pastry Inn, Tuni. All rights reserved.</span>
+    <span>Photos &amp; menu details sourced from public listings of Pastry Inn.</span>
+    <div class="footer__credit">
+<a href="https://www.kaushikailabs.com/?utm_source=pastryinn.com&utm_medium=footer-credit&utm_campaign=client-sites"
+   target="_blank" rel="noopener"
+   aria-label="Designed and developed by Kaushik AI Labs (opens in a new tab)"
+   style="display:inline-flex;align-items:center;gap:8px;font-size:12.5px;line-height:1;color:rgba(255,255,255,.6);text-decoration:none;white-space:nowrap">
+  <span>Designed &amp; Developed by</span>
+  <svg viewBox="0 0 40 40" width="18" height="18" fill="none" aria-hidden="true" style="flex-shrink:0">
+    <path d="M13 3h14c5.5 0 10 4.5 10 10v10c0 5.5-4.5 10-10 10H17l-8.5 5.5V33.2C5.4 31.5 3 27.7 3 23V13C3 7.5 7.5 3 13 3Z" fill="#f7c948"/>
+    <path d="M13.5 10.5v19M14.5 21.5l9.5-9.5M16.5 20.5 26.5 29.5" stroke="#150f33" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="27.5" cy="10.5" r="3.4" fill="#8b5cf6" stroke="#f7c948" stroke-width="1.6"/>
+  </svg>
+  <span style="color:#fff;font-weight:600">Kaushik AI Labs</span>
+</a>
+    </div>
+  </div>
+</footer>
+
+<!-- Cart drawer -->
+<div class="scrim" id="scrim" hidden></div>
+<aside class="drawer" id="drawer" aria-hidden="true" aria-label="Your order">
+  <header class="drawer__head">
+    <h3>Your order</h3>
+    <button class="icon-btn" id="cartClose" aria-label="Close">✕</button>
+  </header>
+  <div class="drawer__body">
+    <ul class="cart-list" id="cartList"></ul>
+    <p class="empty" id="cartEmpty">Your basket is empty.<br><a href="#menu" data-close>Browse the menu →</a></p>
+    <form class="checkout" id="checkout" hidden>
+      <div class="seg seg--full" id="modeSeg" role="group" aria-label="How would you like it?">
+        <button type="button" class="is-on" data-m="Delivery">🛵 Delivery</button>
+        <button type="button" data-m="Takeaway">🛍 Takeaway</button>
+        <button type="button" data-m="Dine-in">🍽 Dine-in</button>
+      </div>
+      <label class="field"><span>Name</span><input type="text" id="coName" required placeholder="Your name"></label>
+      <label class="field" id="coAddrWrap"><span>Delivery address</span><textarea id="coAddr" rows="2" placeholder="House no., street, landmark"></textarea></label>
+      <label class="field"><span>Notes (optional)</span><input type="text" id="coNote" placeholder="Less spicy, extra cheese…"></label>
+    </form>
+  </div>
+  <footer class="drawer__foot" id="drawerFoot" hidden>
+    <div class="total"><span>Total</span><b id="cartTotal">₹0</b></div>
+    <button class="btn btn--wa btn--block" id="sendOrder" type="button">Send order on WhatsApp <span>→</span></button>
+    <p class="fine">Delivery charges (if any) are confirmed on WhatsApp.</p>
+  </footer>
+</aside>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Cake photo">
+  <button class="lb-btn lb-close" id="lbClose" aria-label="Close">✕</button>
+  <button class="lb-btn lb-prev" id="lbPrev" aria-label="Previous">‹</button>
+  <figure><img id="lbImg" alt=""><figcaption><span id="lbCap"></span> <a href="#studio" id="lbCta">Design one like this →</a></figcaption></figure>
+  <button class="lb-btn lb-next" id="lbNext" aria-label="Next">›</button>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<nav class="dock" aria-label="Quick actions">
+  <a href="tel:+919849520218">📞 Call</a>
+  <a href="#menu">🍕 Order</a>
+  <a href="#" data-wa="Hi Pastry Inn! I'd like to order a cake.">💬 WhatsApp</a>
+</nav>
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
+
